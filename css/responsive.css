@@ -1,5 +1,16 @@
 @media(max-width: 1200px) {
+    .s-hero .text{
+        max-width: 49%;
+    }
 
+    .s-card-features .all-cards {
+        width: 100%;
+    }
+
+    .s-card-features .all-cards .card {
+        width: 31%;
+
+    }
 
 }
 
@@ -12,7 +23,46 @@
         display: block
     }
 
-    
+    .s-hero .container {
+        flex-direction: column;
+    }
+
+    .s-hero .text {
+        max-width: 100%;
+        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s-hero .text h1 {
+        text-align: center;
+    }
+
+    .s-hero .text p {
+        text-align: center;
+    }
+
+    .s-card-features .all-cards {
+        flex-direction: column;
+    }
+
+    .s-card-features .all-cards .card {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .s-card-features .all-cards .card:last-child {
+        margin-bottom: 0;
+    }
+
+    .s-card-features .all-cards .card .info {
+        max-width: 100%;
+        margin-top: 2rem;
+    }
 }
 
 @media(max-width: 768px) {
@@ -26,8 +76,45 @@
 }
 
 @media(max-width: 480px) {
+    html {
+        font-size: 55%;
+    }
+
     header .logo {
         max-width: 130px;
     }
-    
+
+    .s-hero {
+        padding: 4rem 0px;
+    }
+
+    .s-hero .text p {
+        margin-bottom: 3rem;
+    }
+
+    .s-hero .image {
+        height: 30rem;
+    }
+
+    .s-hero .image img {
+        max-width: 100px;
+    }
+
+    h1 {
+        font-size: 4.2rem;
+    }    
+
+    .s-card-features {
+        padding: 4rem o;
+    }
+
+    .s-card-features .title p {
+        text-align: center;
+        max-width: 80%;
+    }
+
+    .s-card-features .main-area {
+        padding-bottom: 4rem;
+    }
 }
+
