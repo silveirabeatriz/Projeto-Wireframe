@@ -1,5 +1,5 @@
 # Projeto-Wireframe
 
-Aplicando os primeiros conceitos em HTML e CSS
+Project using first HTML and CSS cencepts.
 
-Confira aqui: https://silveirabeatriz.github.io/Projeto-Wireframe/
+The project can be accessed at the link: https://silveirabeatriz.github.io/Projeto-Wireframe/
